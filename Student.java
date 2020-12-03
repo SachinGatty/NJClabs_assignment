@@ -8,11 +8,12 @@ import javax.persistence.Id;
 @Table(name="student")
 public class student {
 	
+//id to act as unique identifier
 @Id
 private long serialNO;
 private String name;
 private int marks;
-
+//getter to return the variable and setter to set the value
 public long getSerialNO() {
 	return serialNO;
 }
