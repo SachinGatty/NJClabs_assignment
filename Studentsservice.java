@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.example.demo.entity.student;
 import com.example.demo.repository.studentRepo;
-
+//Using service to act as service provider
 @Service
 public class studentservice {
 	@Autowired
