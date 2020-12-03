@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.example.demo.entity.student;
 import com.example.demo.repository.studentRepo;
+//Describing all the services to be performed like get,findAll,save
 //Using service to act as service provider
 @Service
 public class studentservice {
