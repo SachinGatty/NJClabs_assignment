@@ -46,7 +46,7 @@ Packages are 1)student.java
                =By using Getter and Setter we can fetch and set the value,Get method retruns the variable value and the Set method sets the value.
 
 2)studentRepo.java=Here i performed insert and save.
-              Used crud respository intead of SELECT *  , crud repository is inbuilt .
+              Used crud respository instead of SELECT *  , crud repository is inbuilt .
               
 3)studentservice.java=Describing all the services to be performed like get,findAll,save.
               In every package need to specity class,here @Service so that it can acts as a service provider and @Autowired will use studentRepo. 
