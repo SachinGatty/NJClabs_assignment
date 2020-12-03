@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.entity.student;
 import com.example.demo.service.studentservice;
 
+//Restcontroller for restfull services
 @RestController
 
 @RequestMapping("/studentRecord")
