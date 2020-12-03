@@ -2,11 +2,33 @@
 Contains assignment details about Database table, Java REST APIs.
 
 
-installation and configuration of MySql database.
---Local database table,SQl to insert retrieve record from the database table--
+installation and configuration of MySqL database.
 
+--Local database table,SQL to insert retrieve record from the database table--
+Downloaded MySQL from https://dev.mysql.com/downloads/installer/
+Downloaded--MySQl Server
+            MySQl Workbench
+            MySQl Shell
+            (All Latest Versions)
+              
+
+By using MySQL Worknench login credentials we can create a Database.
+
+Created a database
+CREATE DATABASE DATABASE: NAME -CREATE DATABASE SCHHOL:;, to use the dabase table USE SCHOOL;
+To create table-
+CREATE TABLE STUDENT(COLUMN NAME DATATYPE(SIZE OF THE DATA);
+ex--CREATE TABLE STUDENT(SNO INT(5),NAME VARCHAR(15),MARKS INT(3));
+DESCRIBE STUDENT:DESCRIBES STUDENT AS TABLE.
+TO INSERT DATA INTO TABLE
+INSERT INTO TABLENAME(COULUMN NAME) VALUES(VALUES)
+ex--INSERT INTO STUDENT VALUES(101,'SHRAVAN',99);
+TO RETRIEVE/SLECT DATA FROM TABLE
+SELECT SNO , NAME ,MARKS FROM STUDENT;--to slect specific values 
+or SELECT * FROM STUDENT;--to select all
 
 --Java code to insert and retreive from the Database table,REST APIs--
+
 To write Java code i have used Spring Tool Suite 3.
 serialNo,name,marks are column headers.
 serialNo is in the from of long/int,name-string,marks-int.
@@ -17,9 +39,9 @@ Packages are 1)student.java
              2) studentRepo.java
              3)studentservice.java
              4)methodController.java
-1)student.java=Where i described @Entity as a class which represents a table in a related database and maps values into the database.
+1)student.java=Where i described @Entity annotation specifies that the class is is an entity and is mapped to a database table.
                =@Id which represents unique value or unique identifier here in this java code serial number,name,marks are identified as unique identifier.
-               =By using Getter and Setter we can fetch and set the value.
+               =By using Getter and Setter we can fetch and set the value,Get method retruns the variable value and the Set method sets the value.
 
 2)studentRepo.java=Here i performed insert and save.
               Used crud respository intead of SELECT *  , crud repository is inbuilt .
