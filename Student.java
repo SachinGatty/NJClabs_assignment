@@ -4,11 +4,12 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 import javax.persistence.Id;
 
+//Entity annotation specifies that the class is is an entity and is mapped to a database table.
 @Entity
 @Table(name="student")
 public class student {
 	
-//id to act as unique identifier
+//Id which represents unique value or unique identifier here in this java code serial number,name,marks are identified as unique identifier.
 @Id
 private long serialNO;
 private String name;
