@@ -19,7 +19,7 @@ Packages are 1)student.java
              4)methodController.java
 1)student.java=Where i described @Entity as a class which represents a table in a related database and maps values into the database.
                =@Id which represents unique value or unique identifier here in this java code serial number,name,marks are identified as unique identifier.
-               =By using Getter and Setter we can fetch and sets the value.
+               =By using Getter and Setter we can fetch and set the value.
 
 2)studentRepo.java=Here i performed insert and save.
               Used crud respository intead of SELECT *  , crud repository is inbuilt .
