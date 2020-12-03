@@ -22,20 +22,6 @@ To create table-
 
 CREATE TABLE STUDENT(COLUMN NAME DATATYPE(SIZE OF THE DATA);
 
-ex--CREATE TABLE STUDENT(SNO INT(5),NAME VARCHAR(15),MARKS INT(3));
-
-DESCRIBE STUDENT:DESCRIBES STUDENT AS TABLE.
-
-TO INSERT DATA INTO TABLE
-
-INSERT INTO TABLENAME(COULUMN NAME) VALUES(VALUES)
-
-ex--INSERT INTO STUDENT VALUES(101,'SHRAVAN',99);
-
-TO RETRIEVE/SLECT DATA FROM TABLE
-
-SELECT SNO , NAME ,MARKS FROM STUDENT;--to slect specific values 
-or SELECT * FROM STUDENT;--to select all
 
 --Java code to insert and retreive from the Database table,REST APIs--
 
@@ -49,6 +35,22 @@ Packages are 1)student.java
              2) studentRepo.java
              3)studentservice.java
              4)methodController.java
+             
+GET method= http://localhost:8080/studentRecord/studentData 
+OUTPUT=  {
+"serialNO": 101,
+"name": "RAM",
+"marks": 99
+},
+  {
+"serialNO": 111,
+"name": "Sam",
+"marks": 89
+}
+
+POST method=http://localhost:8080/studentRecord/addStudent
+ex={"serialNO":111,"name":"Sam","marks":89}
+             
 
 
                    
