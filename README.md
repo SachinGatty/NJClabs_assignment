@@ -6,9 +6,9 @@ installation and configuration of MySqL database.
 
 --Local database table,SQL to insert retrieve record from the database table--
 Downloaded MySQL from https://dev.mysql.com/downloads/installer/
-Downloaded--MySQl Server
-            MySQl Workbench
-            MySQl Shell
+Downloaded--MySQL Server
+            MySQL Workbench
+            MySQL Shell
             (All Latest Versions)
               
 
