@@ -16,6 +16,7 @@ By using MySQL Worknench login credentials we can create a Database.
 
 Created a database
 CREATE DATABASE DATABASE: NAME -CREATE DATABASE SCHHOL:;, to use the dabase table USE SCHOOL;
+
 To create table-
 CREATE TABLE STUDENT(COLUMN NAME DATATYPE(SIZE OF THE DATA);
 ex--CREATE TABLE STUDENT(SNO INT(5),NAME VARCHAR(15),MARKS INT(3));
@@ -39,6 +40,7 @@ Packages are 1)student.java
              2) studentRepo.java
              3)studentservice.java
              4)methodController.java
+
 1)student.java=Where i described @Entity annotation specifies that the class is is an entity and is mapped to a database table.
                =@Id which represents unique value or unique identifier here in this java code serial number,name,marks are identified as unique identifier.
                =By using Getter and Setter we can fetch and set the value,Get method retruns the variable value and the Set method sets the value.
